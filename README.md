@@ -48,7 +48,19 @@ My strategy to solve this challenge was:
 
 # 5. Machine Learning Model Applied
 
-# 6. Machine Learning Modelo Performance
+# 6. Machine Learning Model Performance
+
+| Model | Single Recall at 40000 | CV Recall at 40000 | Time |
+|---|---|---|---|
+| KNN | 0.84064 | 0.52506 | 9.96s |
+| Logistic Regression | 0.99300 | 0.52607 | 1.41s |
+| XGBoost Regression | 0.99037 | 0.52441 |
+| Random Forest Classifier | 0.98619 | 0.52973 | 22.4s
+| CatBoost Classifier | 0.99411 | 0.52242| 0.764s
+| LGBM Classifier | 0.99354 | 0.52758 | 2.17s
+
+
+
 
 # 7. Business Results
 
